@@ -1,0 +1,31 @@
+footer {
+  background-color: tomato;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 30px;
+  
+
+  flex-wrap: wrap;
+}
+
+.izquierda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.izquierda>p {
+  margin: 0PX 0PX 5px 0PX;
+  
+}
+
+.derecha {
+  display: flex;
+  align-items: center;
+}
+
+footer>app-links {
+  display: flex;
+  gap: 15px;
+}
